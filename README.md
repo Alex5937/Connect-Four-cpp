@@ -11,7 +11,7 @@
 ```mermaid
 graph TD
 A[Input charater] --> B[Check position]
-    B --> |win=1| D[win]
+    B --> |win=1| D[Player win]
     B --> |full=7| E[draw]
     B --> |else| F[Place checker]
     G(Process)
